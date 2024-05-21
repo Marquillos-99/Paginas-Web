@@ -1,52 +1,69 @@
-body{
-    width: 600;
-    margin: 0  auto;
-    padding: 0 20px 20px;
-    border: 5px solid black;
-    background-color: aqua;
-}
-
-.conjunta{
-    background-color: black;
+body {
+    background-color: rgb(186, 73, 73);
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .timer {
+    font-size: 4em;
+  }
+  
+  .button {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
     color: white;
-    margin-top: 15%;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-r: 10px;
+  }
 
-}
+  section{
+    margin-left: 30%;
+    box-sizing: border-box;
+    width: 480px;
+    height: 312.2px;
+    background-color: rgb(193, 92, 92);
+    justify-content: center;
+    border-radius: 15px;
+  }
 
-#box{
-    background-color: aqua;
-}
-
-#linea1{
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-}
-
-#buttonAT{
-    width:14px;
-    margin-top: 2px;
-}
-
-#cajaGrande{
-    width: 100%;
-    height: 50%;
-    background-color: red ;
-}
-
-#options{
+  #boton{
+    padding: 25px;
     display: flex;
     justify-content: center;
-}
+  }
 
-.botones{
-    margin-left: 10px;
-    margin-top: 20px;
-}
+  .botones {
+    background-color: rgb(193, 92, 92);
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
 
-.clock{
-    font-size: larger;
-    width: 100px ;
-    height: 100px ;
-}
+  .botones:hover {
+    background-color: #a24b35;
+  }
+
+  .botones:active {
+    background-color: #E76F51;
+  }
