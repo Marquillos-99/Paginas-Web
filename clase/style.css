@@ -1,0 +1,19 @@
+h1{
+    background-color: black;
+    color: white;
+}
+
+.firstClass{
+    background-color: rgb(223, 69, 69);
+    color: black;
+}
+
+#first{
+    background-color: aqua;
+    color: white;
+}
+
+#second{
+    background-color: rgb(23, 158, 23);
+    color: white;
+}
