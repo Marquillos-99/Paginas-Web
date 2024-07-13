@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Caveat", cursive;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background: rgb(255, 255, 255);
+}
+
+.encabezado_arriba {
+  width: 100%;
+  height: height;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.logo-1 {
+  color: rgb(110, 46, 8);
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  padding-right: 8rem;
+  padding-left: 30rem;
+}
+
+.buscar {
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.buscar .input {
+  width: 250px;
+  height: 30px;
+  font-size: 100%;
+  padding: 15%;
+  border: 2px solid brown;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.buscar button img {
+  width: 30px;
+  height: 27px;
+  border: 2px brown;
+  cursor: pointer;
+  background: transparent;
+}
+
+.acciones_usuario {
+  display: flex;
+  align-items: center;
+}
+
+.acciones_usuario img {
+  width: 35px;
+  height: 35px;
+  padding-right: 10px;
+}
+
+.acciones_usuario span {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  position: relative;
+  float: left;
+  background-color: brown;
+  color: white;
+  font-size: 17px;
+  border-radius: 50%;
+}
+
+.encabezado-menu .navegador ul li {
+  display: inline;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.encabezado-menu .navegador ul {
+  text-align: center;
+  margin-top: 13px;
+  padding-top: 13px;
+  padding-bottom: 15px;
+  background-color: rgb(182, 154, 118);
+}
