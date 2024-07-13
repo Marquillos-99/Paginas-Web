@@ -138,3 +138,60 @@ header {
   margin: 45px;
 }
 /*Fin Portada*/
+
+.titulo-c {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #911c0d;
+}
+
+.seccion__libros {
+  display: block;
+  padding: 5em 3em;
+}
+
+.barra_libros {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.mas__libros {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #911c0d;
+  margin-right: 10px;
+}
+
+.carrusel__libros {
+  display: flex;
+  overflow-x: scroll;
+  padding: 0.5em;
+}
+
+.box-compra {
+  padding: 1px;
+  flex-flow: row;
+  gap: 2em;
+}
+.box-compra .precio {
+  color: #976905;
+  font-size: 18px;
+}
+
+.card-txt .btn-compra {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  font-size: 0.7em;
+  background: #911c0d;
+  border: 1px #911c0d;
+}
+
+.btn-compra {
+  display: inline-block;
+  padding: 0.6em 1.7em;
+  border-radius: 0.3em;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+}
+
+/*Libros parte 1*/
