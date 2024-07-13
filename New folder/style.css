@@ -222,6 +222,7 @@ header {
   width: 100%;
 }
 
+/*Carrusel*/
 .titulo-c {
   text-align: left;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -281,4 +282,111 @@ div .box-compra {
   letter-spacing: 0.09em;
 }
 
-/*Libros parte 1*/
+/*Libros parte 3*/
+
+.titulo-d {
+  text-align: left;
+  margin-bottom: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #911c0d;
+}
+
+.conocenos {
+  display: flex;
+  justify-content: space-between;
+  padding: 5em 3em;
+  gap: 50px;
+}
+
+#img-sucursal {
+  width: 650px;
+}
+
+.sucursal__descripcion .sucursal__invitacion {
+  text-align: center;
+  color: #911c0d;
+}
+
+/*Footer*/
+
+.main-footer {
+  background-color: rgb(182, 154, 118);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  color: white;
+  padding: 15px 20px 30px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.footer__title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 15px;
+}
+
+.footer__txt {
+  color: #ffffff;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.email-to {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.redes-sociales {
+  margin-left: 95px;
+  margin-right: 95px;
+}
+
+.img_redes {
+  width: 25px;
+  height: 25px;
+  margin: 25px 5px;
+  color: #911c0d;
+}
+
+.footer__link {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 6px 10px;
+}
+
+.footer__input {
+  background: #ffffff;
+  width: 100%;
+  font-size: small;
+  display: block;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid #ffffff;
+}
+
+.footer__subscipcion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+
+.suscripcion__enviar {
+  background-color: rgba(145, 28, 13, 50%);
+  color: #ffffff;
+  border: 1px rgba(145, 28, 13, 50%);
+  border-radius: 0px 6px 6px 0px;
+  margin-top: 10px;
+  padding: 6.1px;
+  font-size: small;
+}
+
+.copy {
+  color: #ffffff;
+  grid-column-start: span 3;
+  text-align: center;
+}
