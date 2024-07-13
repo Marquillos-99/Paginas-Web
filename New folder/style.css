@@ -96,3 +96,45 @@ header {
   padding-bottom: 15px;
   background-color: rgb(182, 154, 118);
 }
+
+.encabezado-menu .navegador ul li a {
+  font-size: 18px;
+  font-weight: 530;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+  padding: 2px 7px 2px 7px;
+}
+
+.encabezado-menu .navegador ul li a:hover {
+  color: rgb(110, 46, 8);
+}
+
+/*Fin Barra de encabezado
+
+/*Portada */
+.tunel-portada {
+  width: 100%;
+  height: 25rem;
+}
+
+.portada-contenido {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  text-align: center;
+  z-index: 999;
+}
+
+.portada-titulo {
+  font-size: 3.2em;
+  margin: 15px;
+}
+
+.portada-txt {
+  font-size: 1.5em;
+  margin: 45px;
+}
+/*Fin Portada*/
