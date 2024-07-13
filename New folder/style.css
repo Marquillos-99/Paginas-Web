@@ -138,6 +138,89 @@ header {
   margin: 45px;
 }
 /*Fin Portada*/
+.productos {
+  padding: 5em 3em;
+}
+
+.titulo-b {
+  text-align: left;
+  margin-bottom: 0.7em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #911c0d;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2em;
+}
+
+/*Tarjetas con flex*/
+
+.card {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  transition: 300ms ease-in-out;
+}
+
+/*Crecer con Hover*/
+
+.productos .card:hover {
+  transform: scale(1.05);
+}
+
+.img-libro {
+  width: 180px;
+  height: 300px;
+}
+
+.card-txt {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  padding: 1.5em 4em;
+  text-align: center;
+}
+
+.card-txt .btn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  font-size: 0.8em;
+  background: #911c0d;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.6em 1.7em;
+  border-radius: 0.3em;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+}
+
+.producto {
+  max-width: 280px;
+  vertical-align: top;
+  background: #ffffff;
+  padding: 10px 0 20px 0;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.producto .contenedor-imagen {
+  min-height: 220px;
+  position: relative;
+}
+
+.producto .contenedor-imagen img {
+  width: 100%;
+}
 
 .titulo-c {
   text-align: left;
@@ -168,6 +251,10 @@ header {
 }
 
 .box-compra {
+  display: flex;
+}
+
+div .box-compra {
   padding: 1px;
   flex-flow: row;
   gap: 2em;
